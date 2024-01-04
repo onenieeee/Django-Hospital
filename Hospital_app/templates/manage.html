@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block  container %}
+<div class="container">
+    <form action="" method="POST">
+        {% csrf_token %}
+        <h2>จัดการข้อมูลพนักงาน</h2>
+        <button type="submit" class="btn btn-info">เมนูจัดการข้อมูลพนักงาน</button>
+        
+</form>         
+ </div>
+
+{% endblock  %}
